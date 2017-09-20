@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Barangay Lawaan II</title>
@@ -6,11 +6,80 @@
 	<link href="style.css" rel="stylesheet">
 	<link href="css/nav.css" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="img/lawaangreen.png"/>
+	 <style type="text/css">
+
+<!-- [class^='imghvr-shutter-in-']:after, [class^='imghvr-shutter-in-']:before, [class*=' imghvr-shutter-in-']:after, [class*=' imghvr-shutter-in-']:before { -->
+    <!-- background: #green; -->
+    <!-- position: absolute; -->
+    <!-- content: ''; -->
+	<!-- cursor:pointer; -->
+<!-- } -->
+
+<!-- [class^='imghvr-shutter-in-']:after, [class*=' imghvr-shutter-in-']:after { -->
+    <!-- top: 0; -->
+    <!-- left: 0; -->
+	<!-- cursor:pointer; -->
+<!-- } -->
+
+<!-- [class^='imghvr-shutter-in-']:before, [class*=' imghvr-shutter-in-']:before { -->
+    <!-- right: 0; -->
+    <!-- bottom: 0; -->
+	<!-- cursor:pointer; -->
+<!-- } -->
+
+[class^='imghvr-shutter-in-'] figcaption, [class*=' imghvr-shutter-in-'] figcaption {
+    opacity: 0;
+    z-index: 1;
+	cursor:pointer;
+}
+
+[class^='imghvr-shutter-in-']:hover figcaption, [class*=' imghvr-shutter-in-']:hover figcaption {
+    opacity: 1;
+    -webkit-transition-delay: 0.21s;
+    -moz-transition-delay: 0.21s;
+    transition-delay: 0.21s;
+	cursor:pointer;
+	cursor:pointer;
+}
+<!-- .imghvr-shutter-in-out-horiz:after, .imghvr-shutter-in-out-horiz:before { -->
+    <!-- width: 0; -->
+    <!-- height: 50%; -->
+    <!-- opacity: 0.75; -->
+	<!-- cursor:pointer; -->
+<!-- } -->
+
+<!-- .imghvr-shutter-in-out-horiz:hover:after, .imghvr-shutter-in-out-horiz:hover:before { -->
+    <!-- left:300px;	 -->
+	<!-- width: 50%; -->
+	<!-- height:auto; -->
+	<!-- cursor:pointer; -->
+<!-- } -->
+.demo {
+  display: inline-block;
+  width: 24%;
+  padding: 10px;
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+.demo textarea {
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+  font-family: "Roboto";
+  font-size: 0.9em;
+  height: 32px;
+  padding: 6px 0px;
+  resize: none;
+  text-align: center;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+</style>
 </head>
 <body>
-<a name="home">
+<a id="home">
 <!--- Start Navigation -->
 		<script src="js/jquery-1.11.2.min.js"></script>
+		
 		<script src="js/main.js"></script> <!--- For Navigation -->
 
 		<div class="nav-outer">
@@ -19,11 +88,12 @@
 					<div class="logo"><a href="index.html"><img src="img/lawaanfinal1.png"></a></div>
 					<div class='nav' nav-menu-style="yoga">
 						<ul class="nav-menu">
-							<li><a href="index.html">Home</li>
-							<li><a href="#about">About Us</li>
-							<li><a href="#history">History</li>
-							<li><a href="official.html">Officials</li>
-							<li><a href="#update">Updates</li>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About Us</a></li>
+							<li><a href="#history">History</a></li>
+							<li><a href="#official">Officials</a></li>
+							<li><a href="#update">Updates</a></li>
+							<li><a href="#team">Team</a></li>
 						</ul>
 					</div>
 				</nav>
@@ -40,7 +110,7 @@
 				<ul class="slider1">
 					<li><img src="img/children.png"></li>
 					<li><img src="img/teamwork.jpg"></li>
-					<li><img src="img/peace.png"></li>
+					<li><img src="img/savetrees.jpg"></li>
 				</ul>
 			</section>
 		</div>
@@ -70,57 +140,124 @@
 		</script>
 <!--- End Slider -->
 <div class="clearfix"></div>
-<a name="about">
+<div id="about">
 <!-- Start banner wrapper -->
-	<div id="banner-wrapper">
-		<h1>Welcome To Brgy Lawaan II</h1>
+	<div id="banner-wrapper" >
+		<h1 class="underline">Welcome To Brgy Lawaan II</h1>
 		<div class="one-half">
-			<h3>Mission</h3>
-			<p>Aims to provide school institutions for better quality of education invite more investors and protect the community and environment. To Forge Total Well-Being Of Populace; To Promote Progress Thru Encouragement Of Their Participation And Cooperation In A Realistic And Sustainable Socio-Cultural, Economical, Ecological And Human Development Endeavors, And Thru The Collaboration Of Different Ngo’s And Civic Organizations Towards Economical And Technological Advancement Programs With Other Neighboring Barangays.</p>
+			<h3 class="underline">Mission</h3>
+			<p>Aims to provide school institutions for better quality of education invite more investors and protect the community and environment. To forge total ell-being of populace; to promote progress thru encouragement of their participation and cooperation in a realistic and sustainable socio-cultural, economical, ecological and human development endeavors, and thru the collaboration of different NGO’s and civic organizations towards economical and technological advancement programs with other neighboring barangays.</p>
 		</div>
 		<div class="one-half">
-			<h3>Vision</h3>
-			<p>A Peaceful, Progressive, Healthy and Clean Environment where everybody enjoys the security of tenure. A Community Of Healthy And Happy People; Cooperative And Participative, Yet Remains To Be Self-Reliant; Living In A Peaceful, Progressive And Environment-Friendly Neighborhood That Has Affected Change Towards Sustainable Development In The Municipality.</p>
+			<h3 class="underline">Vision</h3>
+			<p>A peaceful, progressive, healthy and clean environment where everybody enjoys the security of tenure. A community of healthy and happy people; cooperative and participative, yet remains to be self-reliant; living in a peaceful, progressive and environment-friendly neighborhood that has affected change towards sustainable development in the municipality.</p>
 		</div>
 		<div class="clearfix"></div>
-		<h3>Barangay Goals and Objectives</h3>
+		<h3 class="underline">Barangay Goals and Objectives</h3>
 		<div class="one-third">
-			<p>
-				1. To improve the Barangay Hall.<br>
-				2. To repair Barangay canals as a preventive measure against floods during rainy seasons.<br>
-				3. To install additional street lights to prevent crimes and to lessen accidents at night.<br>
-				4. To provide basic medicine on demand for indigents and kids thru the purchase of medicines.<br>
-				5. To acquire/enhance skills of the newly-elected/incumbent Barangay Officials.
-			</p>
-		</div>
-		<div class="one-third">
-			<p>
-				6. To maintain peace and order situation within the barangay.<br>
-				7. To promote an environment-friendly community.<br>
-				8. To increase crop production to farmers thru the purchase of certified seeds.<br>
-				9.	To increase income thru seminars, trainings and workshops for livelihood projects.<br>
-				10.	To promote volunteerism mentality.
-				
-			</p>
-		</div>
-		<div class="one-third">
-			<p>
-				11.	To foster awareness of women's rights against domestic violence and possible trafficking.<br>
-				12.	To promote protection of natural resources consciousness.<br>
-				13.	To promote cooperation among Senior citizens organizations.<br>
-				14.	To provide information on solid waste management.<br>
-				15.	To promote capacity building among the youth in different capacity building activities such as livelihood trainings, clean and green coordinating cases.
+			<p>To improve the Barangay Hall.</p>
+			<p>To repair Barangay canals as a preventive measure against floods during rainy seasons.</p>
+			<p>To install additional street lights to prevent crimes and to lessen accidents at night.</p>
+			<p>To provide basic medicine on demand for indigents and kids thru the purchase of medicines.</p>
+			<p>To acquire/enhance skills of the newly-elected/incumbent Barangay Officials.</p>
 
-			</p>
 		</div>
+		<div class="one-third">
+			<p>To maintain peace and order situation within the barangay.</p>
+			<p>To promote an environment-friendly community.</p>
+			<p>To increase crop production to farmers thru the purchase of certified seeds.</p>
+			<p>To increase income thru seminars, trainings and workshops for livelihood projects.</p>
+			<p>To promote volunteerism mentality.</p>
+
+		</div>
+		<div class="one-third">
+			<p>To foster awareness of women's rights against domestic violence and possible trafficking.</p>
+			<p>To promote protection of natural resources consciousness.</p>
+			<p>To promote cooperation among Senior citizens organizations.</p>
+			<p>To provide information on solid waste management.</p>
+			<p>To promote capacity building among the youth in different capacity building activities such as livelihood trainings, clean and green coordinating cases.</p>
+
+		</div>
+
+				<h1 class="serve">Services Offered &amp;<br>Contacts</h1>
+		<section class="one-halff">
+			<ol class="ol-text" type="A">
+				<li>Issuance of Community Tax Certificate</li>
+				<li>Issuance of Clearance/Certificate
+					<ul type="none" class="ul-text">
+						<li>Employment</li>
+						<li>Business</li>
+						<li>Loans</li>
+						<li>Residency</li>
+						<li>Indigency</li>
+						<li>Fencing/Building/Electrical Clearance</li>
+						<li>Late Registration</li>
+						<li>Solo Parent  (no legal impediment)</li>
+						<li>Tax Exemption</li>
+					</ul>
+				</li>
+				<li>Endorsement on Disco/Public Dance/”Tigbakay”</li>
+				<li>Other Services of the Barangay
+					<ul type="none" class="ul-text">
+						<li>Day Care Services</li>
+						<li>Public Security Services</li>
+						<li>Street Lighting</li>
+						<li>Road maintenance</li>
+						<li>Clean and Green</li>
+						<li>Basic Health Care</li>
+					</ul>
+				</li>
+				<li>Feedback Mechanism</li>
+			</ol>
+		</section>	
+		<section class="one-halff">
+			<table border=0>
+				<tr>
+					<td class="ex1"><img src="img/contactlogo.png" class="icon" width=16 height=16></td>
+					<td class="ex2">Brgy. Lawaan II<br>
+						Telephone no. 272-4700</td>	
+					</td>					
+				</tr>
+				<tr>
+					<td class="ex1"><img src="img/contactlogo.png" class="icon" width=16 height=16></td>
+					<td class="ex2"><br>Mayor's Office<br>
+						Telephone no. 272-0669 / 273-1425<br>	
+					</td>
+				</tr>
+				<tr>
+					<td class="ex1"><img src="img/contactlogo.png" class="icon" width=16 height=16></td>
+					<td class="ex2"><br>Rural Health Unit 2<br>
+						Telephone no. 273-4622<br>	
+					</td>
+				</tr>
+				<tr>
+					<td class="ex1"><img src="img/contactlogo.png" class="icon" width=16 height=16></td>
+					<td class="ex2"><br>Talisay District Hospital<br>
+						Telephone no. 272-3225<br>	
+					</td>
+				</tr>
+				<tr>
+					<td class="ex1"><img src="img/contactlogo.png" class="icon" width=16 height=16></td>
+					<td class="ex2"><br>Talisay City Fire Department<br>
+						Telephone no. 272-8277<br>	
+					</td>
+				</tr>
+				<tr>
+					<td class="ex1"><img src="img/contactlogo.png" class="icon" width=16 height=16></td>
+					<td class="ex2"><br>Talisay City Police Department<br>
+						Telephone no. 272-3636<br>	
+					</td>
+				</tr>
+			</table>
+	</div>
 	</div>
 <!-- End banner wrapper  -->
 	<div class="clearfix"></div>
 <!-- Start Parallax Section -->
-<a name="history">
+<div id="history">
 	<section class="parallax-1" id="background">
 		<div class="parallax-inner">
-			<h3>Barangay History</h3>
+			<h3 class="underline">Barangay History</h3>
 			<div class="one-half">
 				<p>This Barangay was founded in 1969 and its name was taken from the tall and beautiful endemic Lawa-an trees that were plentiful. It was said that when our forefathers came to Cebu, this place was full of vegetation and its lush forest extended up to the area of Manipis. The red and white Lawa-an species were in abundance.</p>
 			</div>
@@ -130,34 +267,192 @@
 		</div>
 	</section>
 <!-- End Parallax Section -->
+</div>
+<div id="official">
 	<div class="clearfix"></div>
 <!-- Start Banner Wrapper -->
-<!-- 	<section class="left-col">
-		<h1>Heading Title Text</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet.</p>		
-	</section>
-	<section class="sidebar">
-		<img src="http://www.w3newbie.com/wp-content/uploads/beach-building.jpg">
-	</section> -->
-<!-- End Banner Wrapper -->
+<div id="banner-wrapper">
+		<h1 class="underline">Barangay Lawaan II Officials</h1>
+		<table border=0 class="imgpic"><div class="demo">
+			<tr>
+				<td colspan="3">
+					
+
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/captain.png" alt="Barangay Captain" width="220" height="220">
+            <figcaption>
+              <h3>Barangay Captain</h3>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure>
+  
+				</td>
+				
+			</tr>
+			<tr ><td>
+		
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/1c.png" alt="First Councilor" width="180" height="180">
+            <figcaption>
+              <h5>Committee Chairman on Infastructure</h5>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure></td>
+  <td>
+		
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/3c.png" alt="Third Councilor" width="180" height="180">
+            <figcaption>
+              <h5>Committee Charwoman on Youth & <br /> Sports Dev't</h5>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure></td>
+		  <td>
+		
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/2c.png" alt="Second Councilor" width="180" height="180">
+            <figcaption>
+              <h5>Committee Chairman on Law</h5>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure></td>
+				
+				<!-- <td><img id="myImg" src="img/1c.png" alt="Barangay Captain" width="180" height="180"></td> -->
+				<!-- <td><img id="myImg" src="img/2c.png" alt="SecondCouncilor" width="180" height="180"><div id="myModal" class="modal"> -->
+  <!-- <span class="close">&times;</span> -->
+  <!-- <img class="modal-content" id="img01"> -->
+  <!-- <div id="caption"></div> -->
+<!-- </div></td> -->
+				<!-- <td><img id="myImg" src="img/3c.png" alt="ThirdCouncilor" width="180" height="180"></td> -->
+			
+			</tr>
+			<tr>
+				<td>
+		
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/4c.png" alt="Fourth Councilor" width="180" height="180">
+            <figcaption>
+              <h5>Committee Chairman on Education</h5>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure></td>
+  <td>
+		
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/6c.png" alt="Sixth Councilor" width="180" height="180">
+            <figcaption>
+              <h5>Committee Chairwoman on Solidwaste</h5>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure></td>
+		  <td>
+		
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/5c.png" alt="Fifth Councilor" width="180" height="180">
+            <figcaption>
+               <h5>Committee Chair Woman on <br />Health & Sanitation , Women & Children</h5>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure></td>
+			</tr>
+			<tr>
+				<td>
+		
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/secretary.png" alt="Secretary" width="180" height="180">
+            <figcaption>
+              <h3>Secretary</h3>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure></td>
+  <td>
+		
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/7c.png" alt="Seventh Councilor" width="180" height="180">
+            <figcaption>
+              <h5>Committee Chairman on Peace & Order</h5>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure></td>
+		  <td>
+		
+<figure class="imghvr-shutter-in-out-horiz"><img src="img/treasurer.png" alt="Treasurer" width="180" height="180">
+            <figcaption>
+              <h3>Treasurer</h3>
+             
+            </figcaption><a href="javascript:;"></a>
+          </figure></td>
+			</tr>
+			</div>
+		</table>
+		<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+	</div>
+<!-- End banner wrapper  -->
 	<div class="clearfix"></div>
 <!-- Start Parallax Section -->
-
+	<section class="parallax-3">
+		<div class="parallax-inner">
+			<div class="clearfix"></div>
+			<h3 class="underline">Barangay Tanod</h3>
+			<div class="one-thirdd">
+				<p class="tanod">
+					ANICOY, GERMAN<br>
+					ALCANTARA, HENRY<br>
+					ANGCAY, ZOSIMO<br>
+					DUCANTE, RONALD<br>
+					JIMENEZ, ALBERTO<br> 
+					LABRA, CHRISTIAN
+				</p>
+			</div>
+			<div class="one-thirdd">
+				<p class="tanod">
+					LAROSA, RODULF<br>
+					LAURONAL, ANGEL<br>
+					LOPEZ, ROLANDO<br>
+					MARAVILLAS, SIMPLICIO SR<br>
+					NAVARRO, DANIL<br>
+					PARBA, MARCELINO JR.
+				</p>
+			</div>
+			<div class="one-thirdd">
+				<p class="tanod">
+					RACAZA, CARMELITO<br>
+					RESTAURO, CIRILO<br>
+					SANCHEZ, ROY<br>
+					VILLARIAS, BERNABE<br>
+					VILLAVER, BENNY SR.<br>
+					RACAZA, LUPERCIO
+				</p>
+			</div>
+		</div>
+	</section>
+	</div>
 <!-- End Parallax Section -->
+
 	<div class="clearfix"></div>
-<a name="update">
+<div id="update">
 <!-- Start Banner Wrapper -->
 
-<div id="banner-wrapper">
-		<h1>Updates</h1>
+<div id="banner-wrapper background2">
+		<h1 class="underline">Updates/Activities</h1>
 		<div class="one-half">
 			<img src="img/usaid.png" width=300 height=200>
 		</div>
 		<div class="one-half">
 			<img src="img/clb.png" style="width: 25%;"><br>
-					<b>CHILDREN’S LEGAL<br>
- 					BUREAU INC.</b>
+					<b>CHILDREN’S LEGAL<br>BUREAU INC.</b>
 		</div>
 		<div class="clearfix"></div>		
 		<h1>Barangay Officials of Lawaan II, Talisay Rescue a Minor from Trafficking</h1>
@@ -186,24 +481,63 @@
 		</div>
 	</div>
 
+<!-- End Banner Wrapper -->
+	<div class="clearfix"></div>
+<!-- Start Parallax Section -->
+	<section class="parallax-2">
+		<div class="parallax-inner2">
+			<section class="one-half">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.1173315302626!2d123.82751351319862!3d10.252119992678601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99d10b3f71c19%3A0x22995e15a65b773b!2sDivino+Amore+Academy!5e0!3m2!1sen!2sph!4v1505349884121" width="450" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<p style="text-align:center;font-size:12px"><b>Brgy. Lawaan II map</b></p>
+			</section>
+			<section class="one-halflupon">
+				<h4>OTHER STAFFS</h4>
+				<p>Brgy. Health Workers are composed of 8 staffs as well as responsible in provinding health and medical care of the barangay.</p>
+				<p>Garbage Collectors are consisted of 4 staffs also responsible for maintaining the cleaniness of the barangay.</p>
+			</section>
+			<div class="clearfix"></div>
+			<picture>
+  			<source srcset="img/chart.jpg" media="(max-width: 768px)">
+  			<source srcset="img/chart.jpg">
+  			<img src="img/chart.jpg" style="width:100%">
+		</picture>
+			<div class="graph">
+				<img src="img/graph01.jpg" width=90%>
+			</div>
+			<div class="graph">
+				<img src="img/graph02.jpg" width=90%>
+			</div>
+		</div>
+	</section>
+	</div>
+<!-- End Banner Wrapper -->
+	<div class="clearfix"></div>
+	<div id="team">
+<!-- Start Banner Wrapper -->
 
-	<!--<section class="left-col">
-		<h1>Updates</h1>
-		<img src="img/usaid.png" width="300" height="200">
+	<h1>Arturo and Friends</h1>
+	<section class="one-third">
+		<picture>
+  			<source srcset="img/group.png media=(max-width: 768px)">
+  			<source srcset="img/group.png">
+  			<img src="img/group.png" style="width:100%">
+		</picture>
+		<img src="img/group01.png" width="72%" class="g1">
+	</section>
+	<section class="one-third">
 		<p>Jerrold Cabalda  - Programmer</p>	
 		<p>Jannette Gonzales - Designer</p>	
 		<p>Glenevie Calimbo - Technical Writer</p>	
 		<p>Arturo Veloso III - Designer</p>	
 		<p>Christian Bacalan - Programmer</p>
-		<p>Michael Sombilon - Designer</p>	
+		<p>Michael Simbajon - Designer</p>
 	</section>
-	<section class="sidebar">
-		<img src="img/clb.png" width="100" height="20">
-		<img src="http://www.w3newbie.com/wp-content/uploads/beach-building.jpg">
-	</section>-->
-<!-- End Banner Wrapper -->
+	<section class="one-third">
+		<img src="img/group02.png" width="100%" class="g1">
+	</section>
+</div>
 <footer>
-	<p> The Copyrights Reserved &copy;</p>
+	<p> The Copyrights Reserved &copy; Arturo and friends</p>
 </footer>
 </body>
 </html>

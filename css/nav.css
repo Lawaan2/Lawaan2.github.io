@@ -39,15 +39,20 @@ body .nav .nav-menu li a {
 	padding:15px 20px;
 	color: #F5F5F5;
 	font-size: 15px;
+	
 }
-.nav.yoga .nav-menu li.active a {
+
+.nav.yoga .nav-menu li a.active {
 	/*color: #F5F5F5;*/
-	color:black;
+	color:blue;
 	/*text-decoration: underline;*/
 }
 .nav.yoga .nav-menu li a:hover {
 	/*color: #F5F5F5;*/
 	color:black;
+	background:green;
+	
+
 	/*text-decoration: underline;*/
 }
 .nav.yoga .nav-toggled {
@@ -225,6 +230,7 @@ body .nav .nav-menu li a {
 .nav ul {
 	overflow: visible;
 }
+
 .has-children {
 	position: relative;
 }
@@ -259,6 +265,24 @@ body .nav .nav-menu li a {
 .nav-clear {
 	clear: both;
 	padding-top: 67px;
+}
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+}
+
+.section.no-pad {
+  padding: 0;
+}
+
+.section.no-pad-bot {
+  padding-bottom: 0;
+}
+
+.section.no-pad-top {
+  padding-top: 0;
 }
 /*--- End Navigation Style --*/
 /*--------------------MEDIA!!!---------------*/
