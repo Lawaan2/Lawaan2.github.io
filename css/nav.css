@@ -50,7 +50,8 @@ body .nav .nav-menu li a {
 .nav.yoga .nav-menu li a:hover {
 	/*color: #F5F5F5;*/
 	color:black;
-	background:green;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
 	
 
 	/*text-decoration: underline;*/
