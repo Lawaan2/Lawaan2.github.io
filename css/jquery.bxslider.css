@@ -22,7 +22,7 @@ max-width: 1020px;
 }
 
 .bx-wrapper img {
-	max-width: 1020px;
+	max-width: 100%;
 	display: block;
 }
 
